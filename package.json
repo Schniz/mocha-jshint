@@ -1,7 +1,7 @@
 {
-  "name": "mocha-jshint",
+  "name": "mocha-jsxhint",
   "version": "0.0.9",
-  "description": "run JSHint as mocha tests",
+  "description": "run JSXHint as mocha tests (forked from mocha-jshint)",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -10,22 +10,23 @@
     "mocha",
     "jshint"
   ],
-  "author": "Allan Ebdrup",
+  "author": "Allan Ebdrup and Gal Schlezinger",
   "license": "Apache2",
   "devDependencies": {
     "mocha": ""
   },
   "dependencies": {
-    "jshint": "^2.5"
+    "jsxhint": "^0.9.0"
   },
   "directories": {
     "test": "test"
   },
+  "homepage": "https://github.com/Muscula/mocha-jshint",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Muscula/mocha-jshint.git"
+    "url": "https://github.com/Schniz/mocha-jshint.git"
   },
   "bugs": {
-    "url": "https://github.com/Muscula/mocha-jshint/issues"
+    "url": "https://github.com/Schniz/mocha-jshint/issues"
   }
 }
