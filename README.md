@@ -1,30 +1,30 @@
-mocha-jshint
+mocha-jsxhint
 ------------
 
-Run jshint as Mocha tests.
+Run jsxhint as Mocha tests.
 
 To install in your node.js project as devDependency, run this command, in the root of your project
 ```
-npm install mocha-jshint --save-dev
+npm install mocha-jsxhint --save-dev
 ```
 
 usage
 -----
 Mocha defaults to looking for your test specs in the `test` folder of your project.
-Add this file as `test/jshint.spec.js` in your project, with the following content:
+Add this file as `test/_jsxhint-spec.js` in your project, with the following content:
 
 ```js
-require('mocha-jshint')();
+require('mocha-jsxhint')();
 ```
 
 That is it you are done.
 
 To grep only the jshint test, just do
 ```
-mocha --grep jshint
+mocha --grep jsxhint
 ```
 
-configuring jshint
+configuring jsxhint
 ------------------
 In the root of your project you can add a `.jshintignore` file, where each line is a file or directory for jshint to ignore
 and not check for errors. (see this project for an example)
