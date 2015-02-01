@@ -7,7 +7,7 @@ module.exports = function (paths, args) {
     args.push("--harmony");
   }
 
-  describe('jshint', function () {
+  describe('jsxhint', function () {
     paths = paths || ['.'];
     paths.forEach(function (p) {
       it('should pass for ' + (p === '.' ? 'working directory' : p), function () {
