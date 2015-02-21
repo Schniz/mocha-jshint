@@ -1,6 +1,6 @@
 {
   "name": "mocha-jsxhint",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "run JSXHint as mocha tests (forked from mocha-jshint)",
   "main": "index.js",
   "scripts": {
