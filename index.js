@@ -16,7 +16,7 @@ module.exports = function (paths, args) {
         var cliPath = path.join(path.dirname(require.resolve("jsxhint")), "cli.js");
         var jsxrun = child_process.spawnSync(cliPath, [pathToRun].concat(args)).stdout.toString();
         if (jsxrun.indexOf("error") !== -1) {
-          throw jsxrun;
+          throw new Error(jsxrun);
         }
       });
     });
